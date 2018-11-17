@@ -1,51 +1,13 @@
 import Header from './Header';
 import React from 'react';
+import AttendanceList from './AttendanceList';
 
 
 const Attendance = () => {
   return (
-    <div >
+    <div className = "container">
       <Header />
-      <table>
-        <thead>
-          <tr>
-              <th>Student</th>
-              <th>Present</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          <tr>
-            <td>Name Name</td>
-            <td>YES</td>
-          </tr>
-          <tr>
-            <td>Name Name </td>
-            <td>NO</td>
-          </tr>
-          <tr>
-            <td>Name Name</td>
-            <td>YES</td>
-          </tr>
-          <tr>
-            <td>Name Name</td>
-            <td>YES</td>
-          </tr>
-          <tr>
-            <td>Name Name</td>
-            <td>YES</td>
-          </tr><tr>
-            <td>Name Name</td>
-            <td>YES</td>
-          </tr><tr>
-            <td>Name Name</td>
-            <td>YES</td>
-          </tr><tr>
-            <td>Name Name</td>
-            <td>YES</td>
-          </tr>
-        </tbody>
-      </table>
+      <AttendanceList />
     </div>
   );
 };
