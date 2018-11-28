@@ -16,7 +16,7 @@ class AttendanceList extends Component {
   renderAttendance(){
     return this.props.attendance.reverse().map(attendance => {
       return (
-        // <div className="card darken-1">
+        // <div cl assName="card darken-1">
         //   <div className="card-content">
         //     <span className="card-title">{attendance.name}{attendance.attended}</span>
         //   </div>
