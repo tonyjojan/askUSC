@@ -23,6 +23,7 @@ class AttendanceList extends Component {
         // </div>
         <tr>
         <td>{attendance.name}</td>
+        <td>{attendance.date}</td>
         <td style={{'background-color':this.attendanceColor(attendance.attended)}}></td>
         </tr>
       );
@@ -35,6 +36,7 @@ class AttendanceList extends Component {
         <thead>
           <tr>
             <th>Student</th>
+            <th>Date</th>
             <th>Attendance</th>
           </tr>
         </thead>

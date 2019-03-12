@@ -22,7 +22,7 @@ class Header extends Component {
             to={this.props.auth ? '/mainMenu' : '/'}
             className="left brand-logo"
             >
-              AskUSC
+              Askii
             </Link>
             <ul className="right">
               {this.renderContent()}
